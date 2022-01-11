@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <title>Validate Form</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js"></script>
+</head>
+
+<body>
+     <div id="container">
+          <h1 class="heading">Login</h1>
+          <form action="#" method="get">
+               <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" onchange="check(this.value)" name="email" id="email" required>
+               </div>
+               <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+               </div>
+               <div class="form-control">
+                    <input type="button" onclick="validate()" value="Submit" class="btn">
+               </div>
+          </form>
+     </div>
+
+</body>
+
+</html>
